@@ -128,9 +128,52 @@ The API uses token-based authentication. To access protected endpoints, you need
 
 
 ..........Register
+
+
+
+
+
+
+
+
+
+
+
+
+
 URL: /register/
+
+
+
+
+
+
+
+
+
+
+
+
 Method: POST
+
+
+
+
+
+
+
+
+
+
+
 Parameters:
+
+
+
+
+
+
+
 name (string, required): User's name.
 email (string, required): User's email.
 password (string, required): User's password.
@@ -146,8 +189,21 @@ password (string, required): User's password.
 
 
 .........Login
+
+
+
+
+
+
+
 URL: /login/
 Method: POST
+
+
+
+
+
+
 Parameters:
 email (string, required): User's email.
 password (string, required): User's password.

@@ -24,19 +24,94 @@ Prerequisites
 
 
 Installation
+
+
+
+
+
+
 Authentication
+
+
+
+
+
+
 Endpoints
+
+
+
+
+
+
 Register
+
+
+
+
+
+
+
 Login
+
+
+
+
+
+
+
+
 Create Paragraph
+
+
+
+
+
+
 Word Search
+
+
+
+
+
+
 Usage
+
+
+
+
+
+
 Contributing
+
+
+
+
+
 License
 
 
 .............................................................Authentication
+
+
+
+
+
+
+
+
+
+
 The API uses token-based authentication. To access protected endpoints, you need to include the JWT token in the request headers.
+
+
+
+
+
+
+
+
+
 
 ..................Endpoints
 

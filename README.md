@@ -174,8 +174,44 @@ Parameters:
 
 
 
+
+
+
+
+
+
+
+
+
 name (string, required): User's name.
+
+
+
+
+
+
+
+
+
+
+
+
 email (string, required): User's email.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 password (string, required): User's password.
 
 
@@ -197,6 +233,20 @@ password (string, required): User's password.
 
 
 URL: /login/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Method: POST
 
 
@@ -205,9 +255,55 @@ Method: POST
 
 
 Parameters:
+
+
+
+
+
+
+
+
+
+
+
+
+
 email (string, required): User's email.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 password (string, required): User's password.
+
+
+
+
+
+
+
+
+
 Response:
+
+
+
+
+
+
+
+
+
 jwt (string): JSON Web Token for authentication.
 
 
@@ -219,10 +315,95 @@ jwt (string): JSON Web Token for authentication.
 
 
 
+
+
+
+
+
+
+
+
+
 URL: /paragraph/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Method: POST
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Parameters:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 text (string, required): Paragraph text.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Authentication: Required (JWT token).
 
 
@@ -238,12 +419,183 @@ Authentication: Required (JWT token).
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 URL: /wordindex/{word}/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Method: GET
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Parameters:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 word (string, required): Word to search for.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Authentication: Required (JWT token).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Response:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 List of paragraphs containing the specified word.
 
 

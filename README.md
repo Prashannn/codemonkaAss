@@ -11,7 +11,18 @@ This is a Django REST API for managing paragraphs and performing word searches w
 
 
 Getting Started
+
+
+
+
+
+
+
 Prerequisites
+
+
+
+
 Installation
 Authentication
 Endpoints
